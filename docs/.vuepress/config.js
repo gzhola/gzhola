@@ -53,7 +53,7 @@ module.exports = {
         ],
         // 腾讯寻人公益
         noFoundPageByTencent: true,
-        modePicker: false,
+        modePicker: true,
         locales: {
             '/': {
                 recoLocales: {
@@ -92,5 +92,8 @@ module.exports = {
             lang: 'zh-CN'
         }
     },
-    base: '/'
+    base: '/gzhola/',
+    plugins: [
+        'vuepress-plugin-flowchart'
+    ]
 }
